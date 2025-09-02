@@ -1,7 +1,6 @@
 name: Deployment to Azure
 
-on: 
- push:
+on: workflow_dispatch
   branches:
     -main
 
@@ -25,4 +24,5 @@ jobs:
       
             
     
+
 
